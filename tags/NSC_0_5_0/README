@@ -1,0 +1,20 @@
+Nautilus-Sound-Converter
+========================
+
+The Nautilus-Sound-Converter extension allows you to convert audio files to different formats using the GStreamer framework.
+
+Current, metadata (vorbistag, id3tag, etc.) is not written to the new files yet, but it's at the top of my list of things to do.
+
+Bug reporting:
+==============
+
+Please report bugs to:
+http://code.google.com/p/nautilus-sound-converter/issues/list
+
+Hacking:
+========
+
+n-s-c can be check out with the following command:
+svn checkout http://nautilus-sound-converter.googlecode.com/svn/trunk/ nautilus-sound-converter
+
+Patches welcomed!

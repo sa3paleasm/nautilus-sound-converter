@@ -1,0 +1,102 @@
+2008-04-05  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* Release 0.5.0
+
+2008-04-05  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* data/progress.glade:
+	* data/progress.xml:
+	* src/nsc-converter.c (progress_cancel_cb): 
+	Add function to cancel file conversion.
+	
+2008-04-05  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* configure.ac: Add checks for decodebin, audioconvert,
+	and audioresample gstreamer elements.
+
+	* src/nsc-gstreamer.[ch]:
+	* src/nsc-extension.c (file_is_sound): 
+	Add support for converting from vorbis, mp3,
+	aac, and wav files. (Bug #1)
+
+2008-04-04  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* src/nsc-gstreamer.c (connect_decodebin_cb): 
+	Add code to use decodebin so that we can convert
+	more than just flacs.
+
+2008-03-31  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* configure.ac: Set min version of glib2. (Bug #3)
+
+2008-03-31  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* Release 0.1.0
+
+2008-03-31  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* src/nsc-progress.[ch]: Removed.
+
+	* data/progress.glade:
+	* data/progress.xml:
+	* src/nsc-converter.c: 
+	* src/Makefile.am: Move progress dialog code to
+	nsc-converter.c.
+
+2008-03-29  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* src/nsc-extension.c:
+	* src/nsc-module.c:
+	* src/nsc-gstreamer.c:
+	* src/Makefile.am: clean up some compiler errors.
+	
+2008-03-29  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* src/nsc-converter.c (create_main_dialog): 
+	* src/nsc-xml.[ch]:
+	* src/Makefile.am:
+	Add help functions for gtkbuiler.
+
+	* data/main.glade:
+	* data/main.xml: Use better title in dialog.
+	
+2008-03-29  Brian Pepple  <bpepple@fedoraproject.org> 
+
+	* data/progress.xml:
+	* data/progress.glade:
+	* data/Makefile.am (builder_DATA): 
+	Add progress dialog ui files.
+
+2008-03-28  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* src/nsc-converter.c (create_new_file):
+	Add function to create new GFile based on the audio
+	profile & save path.
+
+2008-03-19  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* po/POTFILES.in:
+	* src/nsc-error.[ch]:
+	* src/nsc-gstreamer.[ch]:
+	* src/Makefile.am: Add initial gstreamer framework code.
+	
+2008-03-19  Brian Pepple  <bpepple@fedoraproject.org>
+
+	* AUTHORS:
+	* autogen.sh:
+	* configure.ac:
+	* Makefile.am:
+	* NEWS:
+	* README:
+	* TODO:
+	* data/main.glade:
+	* data/main.xml:
+	* data/Makefile.am:
+	* po/ChangeLog:
+	* po/LINGUAS:
+	* po/POTFILES.in:
+	* src/Makefile.am: 
+	* src/nsc-converter.[ch]:
+	* src/nsc-extension.[ch]:
+	* src/nsc-module.c: Initial project files.
+

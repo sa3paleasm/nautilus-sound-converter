@@ -1,0 +1,8 @@
+NEW in 0.5.0 - "Wig Out at Denko's" :
+==============
+- Add support for convertering vorbis, mp3, aac, and wav files. (Bug #1)
+- Fixed: check for minimum version of glib2 needed. (Bug #3)
+
+NEW in 0.1.0 - "Losing Skin" :
+==============
+- First release.
