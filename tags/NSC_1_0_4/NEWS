@@ -1,0 +1,48 @@
+NEW in 1.0.4 - "Jet Set Ready" :
+==============
+- Remove partially created files when converting is canceled.
+- Add support for 'audio/x-ms-wma' mime type. (Angel Marin)
+
+Translations:
+- Added French translation (Christophe Perez)
+
+NEW in 1.0.3 - "Good Luck in Jail" :
+==============
+- Squashed a memory leak.
+- Added gconf key to allow user to have the src directory be the default
+  output destination. Read the README to set this. (Bug #11, #14)
+- Tweak the ui. (Bug #15)
+- Updated Swedish translation (Daniel Nylander)
+
+NEW in 1.0.2 - "Strong Reaction" :
+==============
+- Use opaque pointer instead of G_TYPE_INSTANCE_GET_PRIVATE.
+
+Translations:
+- Added Swedish translation (Daniel Nylander)
+
+NEW in 1.0.1 - "Collect from Clark Kent" :
+==============
+- Add support for 'audio/x-musepack' mime type. (Bug #10)
+- Bump minimum version of gstreamer needed to 0.10.20.
+- Use status icon, so the user can hide progress dialog if they want.
+
+NEW in 1.0.0 - "Mass Nerder" :
+==============
+- Fix pipeline, so flacs tags are converted.
+- Add support for 'audio/ogg' mime type.
+
+NEW in 0.7.0 - "Breaking the Broken" :
+==============
+- Add  progress bar to show eta & speed of file conversion.
+- Use gstreamer gio plugins.
+- Minor tweaks to progress dialog.
+
+NEW in 0.5.0 - "Wig Out at Denko's" :
+==============
+- Add support for converting vorbis, mp3, aac, and wav files. (Bug #1)
+- Fixed: check for minimum version of glib2 needed. (Bug #3)
+
+NEW in 0.1.0 - "Losing Skin" :
+==============
+- First release.
