@@ -1,0 +1,121 @@
+Nautilus extension to convert audio files to a different format, using the GStreamer framework.
+
+**Note**: This project has moved over to the GNOME infrastructure.
+
+Source can be checked out by the following command:
+```
+$ git clone git://git.gnome.org/nautilus-sound-converter
+```
+
+Bugs can be reported at:
+https://bugzilla.gnome.org/browse.cgi?product=nautilus-sound-converter
+
+![http://bpepple.fedorapeople.org/screenshots/nsc.png](http://bpepple.fedorapeople.org/screenshots/nsc.png)
+
+
+```
+NEW in 3.0.2. - "Rodeo Jones":
+===============
+- Add support for 'audio/mp2' mime type. (#657940)
+
+Translations:
+- Added Russian translation (Yuri Myasoedov)
+- Added Norwegian bokmål translation (Kjartan Maraas)
+- Added Arabic translation (Abdalrahim G. Fakhouri)
+- Added Polish translation (Piotr Drąg)
+- Added Esperanto translation (Kristjan Schmidt)
+- Added Serbian translation (Мирослав Николић)
+
+NEW in 3.0.1 - "Too Small To Fail":
+===============
+- Show text in progress bars.
+
+Translations:
+- Added Danish translation (Joe Hansen)
+- Added Ukrainian translation (Serhij Dubyk)
+- Added Vietnamese translation (Lê Trường An)
+- Added Latvian translation (Rūdofls Mazurs)
+- Added Greek translation (Evangelos Vafeiadis)
+
+NEW in 3.0.0 - "Came Without A Warning":
+===============
+- Port to GTK3.
+- Fix crash due to user deleting the cdlossy profile (#640931)
+
+Translations:
+- Added Spanish translation (Jorge González)
+- Added Simplified Chinese translation (lainme)
+- Added Czech translation (Marek Cernocky)
+- Added Slovenian translation (Matej Urbančič)
+- Added Galician translations (Fran Diéguez)
+- Added Brazilian Portuguese translation (Gabriel F. Vilar)
+- Added Hebrew translation (Yaron Shahrabani)
+- Updated German translation (Mario Blättermann)
+- Updated Hungarian translation (Gabor Kelemen)
+- Updated Swedish translation (Daniel Nylander)
+- Updated French translation (Bruno Brouard)
+
+NEW in 1.0.6 - "Hack The Sides Away" :
+==============
+- Really fix the translation issue. Thanks to the gnome-mplayer folks for
+  providing the solution.
+- Fix distcheck, so root privilege isn't needed.
+
+NEW in 1.0.5 - "Speaking in Tongues" :
+==============
+- Fix bug so translations are actually used.
+
+Translations:
+- Added Italian translation (Gianvito Cavasoli)
+- Added Hungarian translation (Peter Bojtos)
+- Added German translation (Michael Kogan)
+
+NEW in 1.0.4 - "Jet Set Ready" :
+==============
+- Remove partially created files when converting is canceled.
+- Add support for 'audio/x-ms-wma' mime type. (Angel Marin)
+
+Translations:
+- Added French translation (Christophe Perez)
+
+NEW in 1.0.3 - "Good Luck in Jail" :
+==============
+- Squashed a memory leak.
+- Added gconf key to allow user to have the src directory be the default
+output destination. Read the README to set this. (Bug #11, #14)
+- Tweak the ui. (Bug #15)
+- Updated Swedish translation (Daniel Nylander)
+
+NEW in 1.0.2 - "Strong Reaction" :
+==============
+- Use opaque pointer instead of G_TYPE_INSTANCE_GET_PRIVATE.
+
+Translations:
+- Added Swedish translation (Daniel Nylander)
+
+NEW in 1.0.1 - "Collect from Clark Kent" :
+==============
+- Add support for 'audio/x-musepack' mime type. (Bug #10)
+- Bump minimum version of gstreamer needed to 0.10.20.
+- Use status icon, so the user can hide progress dialog if they want.
+
+NEW in 1.0.0 - "Mass Nerder" :
+==============
+- Fix pipeline, so flacs tags are converted.
+- Add support for 'audio/ogg' mime type.
+
+NEW in 0.7.0 - "Breaking the Broken" :
+==============
+- Add progress bar to show eta & speed of file conversion.
+- Use gstreamer gio plugins.
+- Minor tweaks to progress dialog.
+
+NEW in 0.5.0 - "Wig Out at Denko's" :
+==============
+- Add support for converting vorbis, mp3, aac, and wav files. (Bug #1)
+- Fixed: check for minimum version of glib2 needed. (Bug #3)
+
+NEW in 0.1.0 - "Losing Skin" :
+==============
+- First release.
+```
